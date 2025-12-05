@@ -1,5 +1,16 @@
 # LLVM-Swift-6.3-buildscript
 
+> **Use XCode 16.4**
+> ```
+> # Download Xcode 16.4 from https://developer.apple.com/download/all
+> xcode-select /Applications/Xcode_16.4.app
+> # Check swiftc version
+> swiftc --version
+> $ swift-driver version: 1.120.5 Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+> $ Target: arm64-apple-macosx15.0
+> ```
+> Can only build arm64 target including toolchain
+
 This repo contains the patch files only.
 
 So just copy and paste them into the swift repo directory.
